@@ -1,0 +1,230 @@
+﻿/* Style File for www.sbsstc.ac.in */
+* {margin:0; padding:0px; outline:0}
+body, th {font-family: "Geneva", sans-serif, Times New Roman; text-align: center; font-size:10pt; background:#F9F9F9; background-color:#a7ff00;}/*background-color:Aquamarine*/
+#mainWrapper{width:90%; position:relative; left:5%; color:black;}
+
+.NavTop {height:25px; color:black; z-index:1000; border-radius: 5px; background:white;}
+.NavTop a:link, a:visited{color:gray; text-decoration:none}
+.NavTop a:hover{color:black; text-decoration:none}
+.NavTopLogo {height:150px; color:black; z-index:1000; float:left}
+
+.LogoBanner{float:left; font-size:small; line-height:30px; width:100%;}
+.NavLeft{width:300px; text-align:left; line-height:25px; float:left;}		
+.NavLeftLogo{width:50%; text-align:left; line-height:25px; float:left;}
+.NavRight{width:40%; height:60px; text-align:right; line-height:20px; float:right; padding:4px 4px 4px 4px; border:0px white outset;}
+
+.pageContents{border-radius: 10px; width:98%; position:relative; background:white; top:10px; clear:both; padding:1% 1% 1% 1%;}
+.contentLeft{border-radius: 10px; position:relative; width:25%; height:100%; text-align:left; padding-left:1%; float:left}
+.contentMiddle{border-radius: 10px; position:relative; width:45%; height:100%; text-align:left; padding-left:1%; margin-left:1%; margin-right:1%; float:left}
+.contentRight{border-radius: 10px; position:relative; width:25%; height:100%; text-align:left; padding-left:1%; float:left}
+.contentRight a:link, a:visited{color:gray; text-decoration:none}
+.contentRight a:hover{color:black; text-decoration:none}
+
+.pageTitle{height:25px; width:100%; position:relative; top:10px; clear:both; font-size:160%; font-weight:bold; text-align:left}
+.pageHeadFoot{z-index:1000; position:relative; height:130px; clear:both; bottom:5px; top:10px;}
+.NavBottom {width:100%; height:82px; z-index:1000; border-radius: 10px; background:white; position:absolute; top:5px; 
+	padding-bottom:2px; padding-top:5px;}
+.NavBottom a:link, a:visited{color:gray; text-decoration:none; font-size:medium;}
+.NavBottom a:hover{color:black; text-decoration:none; font-size:medium;}
+.NavBottomL {width:35%; height:80px; z-index:1000; border-radius: 5px; float:left;}
+.NavBottomM {width:30%; height:80px; z-index:1000; border-radius: 5px; float:left;}
+.NavBottomR {width:35%; height:80px; z-index:1000; border-radius: 5px; float:right;}
+/*.NavBottomM social{position:relative; margin-top:2px; width:100%; border-radius: 5px;}*/
+
+.nav {height:20px; color:black; z-index:1000; float:right; border-radius:5px;}
+.menu a {float:left; background:black; color:white; border-left:1px solid white; text-decoration:none; width:130px; height:20px; padding-top:4px;}
+.menu a:visited {float:left; color:white; text-decoration:none; width:130px; height:25px; padding-top:4px;}
+.menu span {float:left; color:white; text-decoration:none; width:130px; height:25px; padding-top:2px;}
+.menu a:hover {color:white; background:black; height:20px;}
+
+.menu { z-index:1000; list-style:none; text-align:center; width:100%; margin:0 auto; }
+.menu li {position:relative; float:left; width:130px; z-index:1000; opacity: 0.8; }
+.menu ul {display:none; position:absolute; text-align:left; top:25px; left:0px; background:#333333; display:none; list-style:none}
+.menu ul li {float:none; border-bottom:1px solid white; border-left:1px solid white; width:130px}
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none;  
+	height:20px; padding-top:5px; }
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:black; color:white}
+.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {float:none; display:block; background:black; 
+	height:20px; padding-top:2px;}
+.menu ul ul {left:130px; top:0;}
+.menu li.submenu {font-weight:normal; background:gray}
+.menu li.noborder {border-top:none}
+li.menuhover a, li.menuhover li.menuhover a {color:white; background:black}
+li.menuhover span, li.menuhover li.menuhover span {color:white; background:black}
+
+
+/* To be included in above code */
+#info {width:180px; background:#eee}
+#info li {width:160px; border-top:none; padding:5px 5px; color:#666; text-align:left}
+
+
+.h11{font-size:30px; font-weight:bold; line-height:60px; height:40px; color:white; text-align:right}
+.h11 a:link, a:visited{color:gray; text-decoration:none;}
+.h11 a:hover{color:white; text-decoration:none;}
+
+.h22{font-size:20px; line-height:40px; height:35px; color:white; text-align:right}
+.h22 a:link, a:visited{color:gray; text-decoration:none;}
+.h22 a:hover{color:white; text-decoration:none;}
+
+.h33{font-size:20px; line-height:20px; height:30px; color:white; text-align:right}
+.h33 a:link, a:visited{color:gray; text-decoration:none;}
+.h33 a:hover{color:white; text-decoration:none;}
+
+.fixedPrint{position:fixed; width:80px; height:30px; padding-top:1%; top:35%; right:2%; 
+	left:auto; bottom:auto; border:1px black solid; border-radius:5px;}
+
+.TabLPrint {color:black; width:100%; text-align:left; text-indent:5px; background-color:white; }
+.TabCPrint {color:black; width:100%; text-align:left; background-color:white; }
+
+.TabC100 {color:black; width:100%; text-align:center; line-height:17px; text-indent:5px;}
+.TabC100 th{background-color:white; color:black;}
+.TabC100 thead {display: table-header-group;}
+.TabC100 tfoot {display: table-footer-group;}
+@media print {thead {display: table-header-group; page-break-after:auto;}
+	tfoot {display: table-footer-group; page-break-after:auto;}}
+
+.TabC {color:black; width:90%; text-align:center; line-height:20px; text-indent:5px;}
+.TabC a:link, a:visited{text-decoration:none; color:white;}
+.TabC a:hover{color:silver;}
+.TabC th{background-color:#19332B; color:white}
+
+.TabCNav {color:black; width:90%; text-align:center; line-height:20px; text-indent:5px;}
+.TabCNav th{background-color:#19332B; color:white}
+.TabCNav th a{width:100%; display:block; color:white; text-decoration:none}
+.TabCNav th a:hover{background-color:gray; color:white}
+
+.TabL{color:black; width:90%; text-align:left; line-height:20px; text-indent:5px;}
+.TabL th{background-color:#19332B; color:white;}
+
+.TabJ{color:black; width:1000px; text-align:justify; line-height:20px;}
+.TabJ th{background-color:#19332B; color:white;}
+
+.TabCNrw {color:black; width:700px; text-align:center; line-height:20px;}
+.TabCNrw a:link, a:visited{text-decoration:none; color:gray;}
+.TabCNrw a:hover{color:black;}
+.TabCNrw th{background-color:#19332B; color:white; line-height:normal}
+.TabCNrw th a:hover{color:white;}
+
+.TabJNrw{color:black; width:800px; text-align:justify; line-height:20px;}
+.TabJNrw th{background-color:#19332B; color:white;}
+
+.TabLNrw{color:black; width:700px; text-align:left; line-height:20px;}
+.TabLNrw th{background-color:#19332B; color:white;}
+
+.TabCVNrw{color:black; width:500px; text-align:center; line-height:20px;}
+.TabCVNrw th{background-color:#19332B; color:white;}
+
+.TabLVNrw{color:black; width:500px; text-align:left; line-height:20px;}
+.TabLVNrw th{background-color:#19332B; color:white;}
+
+.TabJVNrw{color:black; width:500px; text-align:justify; line-height:20px;}
+.TabJVNrw th{background-color:#19332B; color:white;}
+
+.divStatic1{border-radius: 10px; background:#19332B; width:980px; height:35px; position:relative; top:10px; left:10px}
+.divStatic2{border-radius: 10px; background:#19332B; width:980px; height:135px; position:relative; top:340px; left:10px;}
+.CenterBlue{position:absolute; top:5px; left:5px; width:935px; height:80px; text-indent:0px; text-align:center; font-size:small; color:white;}
+.CenterBlue a:link, a:visited{color:gray; text-decoration:none}
+.CenterBlue a:hover{color:white; text-decoration:none;}
+.CenterBlueC1{position:absolute; top:25px; left:5px; width:333px; height:90px; text-align:left; font-size:medium}
+.CenterBlueC2{position:absolute; top:25px; left:250px; width:333px; height:90px; text-align:left; font-size:medium}
+.CenterBlueC3{position:absolute; top:25px; left:500px; width:333px; height:90px; text-align:left; font-size:medium}
+.CenterBlueC4{position:absolute; top:25px; left:750px; width:333px; height:90px; text-align:left; font-size:medium;}
+
+.LeftDiv{border-radius: 10px; float:left; width:225px; height:310px; position:absolute; clear:both; top:55px; left:10px; background:lime}
+.LeftDiv a:link, a:visited{color:gray; text-decoration:none;}
+.LeftDiv a:hover{color:white; text-decoration:none;}
+.CenterDiv{border-radius: 10px; float:left; width:500px; height:310px; position:absolute; clear:both; top:55px; left:250px; background:lime}
+.CenterDiv a:link, a:visited{text-decoration:none; color:gray}
+.CenterDiv a:hover{color:black}
+.RightDiv{border-radius: 10px; float:right; font-size:small; width:225px; height:310px; position:absolute; clear:both; top:55px; right:10px; background:lime}
+.RightDiv a:link, a:visited{color:gray; text-decoration:none}
+.RightDiv a:hover{color:black; text-decoration:none}
+
+        .fadein {position:relative; top:0px; height:300px; margin:0 auto; 
+    		padding: 0px; border:1px gray ridge}
+	    .fadein img {position:absolute; left:0px; top:0px; width:100%; height:100%}
+
+.tit {font-size:20px; font-weight: bold; color: #003300; width:10%; background-color:blue}
+
+
+.NavLogName{width:522px; text-align:right; line-height:25px; font-size:15px; float:left;}
+
+.TabObeC{width:900px; text-align:center; line-height:15px;}
+.TabObeC th{background-color:#19332B; color:white;}
+.TabObeC a:link, a:visited{color:gray; text-decoration:none}
+.TabObeC a:hover{color:black;}
+
+.TabObeL{width:900px; text-align:left; line-height:15px; font-size:11pt}
+.TabObeL th{background-color:#19332B; color:white;}
+.TabObeL a:link, a:visited{color:gray; font-size:11pt; text-decoration:none}
+.TabObeL a:hover{color:black; font-size:11pt}
+
+.TabLayout{width:900px; text-align:left; line-height:15px; font-size:11pt}
+.TabLayout th{background-color:#19332B; color:white;}
+.TabLayout a:link, a:visited{color:gray; font-size:10pt; text-decoration:none}
+.TabLayout a:hover{color:black; font-size:9pt}
+.TabLayRight{width:700px; text-align:center; line-height:15px; font-size:11pt; text-decoration:none}
+.TabLayRight th{background-color:#19332B; color:white;}
+.TabLayRightL{width:700px; text-align:left; line-height:15px; font-size:11pt; text-decoration:none}
+.TabLayRightL th{background-color:#19332B; color:white;}
+
+.TabDep{width:900px; text-align:center; color:white; line-height:15px; background-color:#19332B; font-size:10pt}
+.TabDep a:link, a:visited{color:gray; text-decoration:none;}
+.TabDep a:hover{color:white; text-decoration:none;}
+
+/* Photo Gallery */
+.rs-slideshow {border: 12px solid #444; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius: 12px; -khtml-border-radius: 12px;
+	height: 250px; margin: 10px auto; overflow: hidden; position: relative; width: 450px;}
+.rs-slideshow .slide-container {background-color: #444; position:absolute; height: 100%; left: 0; overflow: hidden; top: 0; width: 100%;}
+.rs-slideshow .slide-container img {position:relative}
+.rs-slideshow .slide-container .slide-caption {background-color: #000; bottom: 0; color: #fff; display: block; left: 0; padding: 6px 12px;
+	position: absolute; text-align: center; right: 0; filter: alpha(opacity=70); /* internet explorer */
+	-khtml-opacity: 0.7; /* khtml, old safari */ -moz-opacity: 0.7; /* mozilla, netscape */ opacity: 0.7; /* fx, safari, opera */}
+.rs-slideshow .slides {display: none;}
+.rs-controls { clear: both; margin: 12px auto; width: 500px;}
+.rs-play-pause, .rs-prev, .rs-next { float: left; margin-right: 12px;}
+.rs-controls ul { float: left; list-style: none; margin: 0 6px 0 0; padding: 0;}
+.rs-index-list li { float: left; margin-right: 6px;}
+.rs-controls a { background-color: #eee; border: 1px solid #ddd; color: #444; display: block; 
+	font-size: 12px; font-weight: bold; padding: 3px 5px; text-decoration: none;}
+.rs-controls a:hover { background-color: #ddd; color: #444;}
+.rs-controls .rs-active { background-color: #444; border: 1px solid #444; color: #eee;}
+
+.chartbox {text-align: center; margin:auto; border:1px solid #333; padding:10px; padding-top:10px; overflow:hidden;}
+/* Vertical chart elements */
+.barv{margin: 2px; float:left;}
+.barvvalue {padding:0px; margin:0px; text-align: center;}
+
+/* Horizontal chart elements */
+.barh{margin: 4px; text-align:left; clear:both;}
+.barhvalue { padding:0px; margin:0px 5px; font-size: 12px; text-align: left; overflow:hidden; float:left;}
+.barhcaption {padding:0px; margin:0px 5px; font-size: 12px; text-align: right;
+	overflow:hidden;float:left;}
+.barhimage {float:left;}
+
+/* FLIP BOX */
+.flip3D{ width:200px; height:130px; margin:12px; float:left;} 
+.flip3D > .front{ position:absolute; transform: perspective( 600px ) rotateY( 0deg ); background:#19332B; width:200px; height:130px; 
+	border-radius: 7px; backface-visibility: hidden; transition: transform .5s linear 0s; } 
+.flip3D > .back{ position:absolute; transform: perspective( 600px ) rotateY( 180deg ); background:#19332B; width:200px; height:130px; 
+	border-radius: 7px; backface-visibility: hidden; transition: transform .5s linear 0s; line-height:21px; font-weight:bold; color:lime} 
+.flip3D:hover > .front{ transform: perspective( 600px ) rotateY( -180deg ); } 
+.flip3D:hover > .back{ transform: perspective( 600px ) rotateY( 0deg ); }
+
+.bootstrap-checkbox {
+    display:inline-block;
+    position:relative;
+    width:13px;
+    height:13px;
+    border:1px solid #000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bootstrap-checkbox i{
+    position:absolute;
+    left : -1px;
+    top : -2px;
+}
